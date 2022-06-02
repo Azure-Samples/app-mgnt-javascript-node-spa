@@ -1,57 +1,26 @@
-# Project Name
+This sample demonstrates a Node.js single-page application (SPA) that lets users sign-in with Azure Active Directory (Azure AD) using the Microsoft Authentication Library for Javascript 2.0.
 
-(short, 1-3 sentenced, description of the project)
+## Setup
 
-## Features
+### Step 1: Clone or download this repository
 
-This project framework provides the following features:
+From your shell or command line:
 
-* Feature 1
-* Feature 2
-* ...
+```console
+    git clone https://github.com/Azure-Samples/ms-identity-javascript-angular-tutorial.git
+```
 
-## Getting Started
+or download and extract the repository .zip file.
 
-### Prerequisites
+> :warning: To avoid path length limitations on Windows, we recommend cloning into a directory near the root of your drive.
 
-(ideally very short, if any)
+### Step 2: Install project dependencies
 
-- OS
-- Library version
-- ...
+```console
+    cd ms-identity-javascript-angular-tutorial
+    cd 1-Authentication/1-sign-in/SPA
+    npm install
 
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+```Prerequisites
+An Azure AD tenant. For more information see: How to get an Azure AD tenant
+A user account in your Azure AD tenant. This sample will not work with a personal Microsoft account. Therefore, if you signed in to the Azure portal with a personal account and have never created a user account in your directory before, you need to do that now.
