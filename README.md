@@ -7,7 +7,7 @@ This sample demonstrates a Node.js single-page application (SPA) that lets users
 From your shell or command line:
 
 ```console
-    git clone https://github.com/Azure-Samples/ms-identity-javascript-angular-tutorial.git
+    git clone https://github.com/Azure-Samples/app-mgnt-javascript-node-spa.git
 ```
 
 or download and extract the repository .zip file.
@@ -16,11 +16,8 @@ or download and extract the repository .zip file.
 
 ### Step 2: Install project dependencies
 
-```console
-    cd ms-identity-javascript-angular-tutorial
-    cd 1-Authentication/1-sign-in/SPA
-    npm install
+Install the Node.js webserver **express** and HTTP request middleware **morgan** into the application:
 
-```Prerequisites
-An Azure AD tenant. For more information see: How to get an Azure AD tenant
-A user account in your Azure AD tenant. This sample will not work with a personal Microsoft account. Therefore, if you signed in to the Azure portal with a personal account and have never created a user account in your directory before, you need to do that now.
+```console
+npm install express morgan
+```
